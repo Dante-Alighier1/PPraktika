@@ -1,0 +1,10 @@
+.news-title{
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.news-grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

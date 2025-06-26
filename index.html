@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бизнес и Право.Stud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+  <header class="header">
+    <div class="headercontainer">
+      <div class="logo">
+        <img src="images/Бизнес и Право.Stud.png">
+      </div>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="vakansii.html">Вакансии</a>
+        <a href="soveti.html">Советы</a>
+        <a href="news.html">Новости</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+  <div class="overlay">
+    <div class="hero-content">
+      <h1>Всё о студенческой жизни и<br>карьере — в одном месте</h1>
+      <p>Следи за событиями, участвуй в медиацентре,<br>находи вакансии, читай советы выпускников</p>
+      <a href="#form" class="hero-btn">Присоединиться</a>
+    </div>
+  </div>
+</section>
+
+  <section class="about container">
+    <h2>О нас</h2>
+    <p>
+      Мы — студенческий медиацентр техникума «Бизнес и Право».<br>
+      Наша команда освещает студенческую жизнь:
+      снимаем фото и видео с мероприятий, создаём контент для сайта и соцсетей.
+    </p>
+    <p>
+      Участвуешь в жизни техникума — скорее всего, мы уже тебя снимали!<br>
+      Умеешь писать, снимать или монтировать — присоединяйся!<br>
+      Мы продвигаем активную студенческую среду и делаем её заметной.<br>
+      Хочешь увидеть, как это выглядит изнутри? Посмотри короткое видео о нашей работе ниже.
+    </p>
+    <div class="custom-video-wrapper">
+  <div class="video-preview" onclick="playVideo()">
+    <img src="images/preview.webp" alt="превью видео">
+    <button class="play-btn">
+      <img src="images/play-circle 1.png">
+    </button>
+  </div>
+  <video id="myVideo" class="hidden-video" controls>
+    <source src="video-gif/vidforPP.mp4" type="video/mp4">
+    Ваш браузер не поддерживает видео.
+  </video>
+</div>
+
+  </section>
+
+  
+  <section class="news container">
+  <div class="section-line"></div>
+  <h2>Новости и события</h2>
+  <p class="subtitle">Как живёт наш техникум</p>
+  <div class="news-grid">
+    
+    <div class="news-card">
+      <h3>«День России»</h3>
+      <p class="date"> <img src="images/calendar.png"> 11 июня 2025</p>
+      <p class="description">Торжественно-праздничное мероприятие «День России» 11 июня 2025 года, в рамках плана воспитательной работы, в техникуме состоялось торжественно- праздничное мероприятие - «День России». На мероприятии звучало много прекрасных слов о России, о её...   </p>
+      <a href="extendnews.html" class="read-more">Читать далее →</a>
+    </div>
+
+    <div class="news-card">
+      <h3>«День Карьеры»</h3>
+      <p class="date"> <img src="images/calendar.png"> 15 мая 2025</p>
+      <p class="description">15 мая в техникуме прошёл масштабный «День карьеры», где студенты встретились с работодателями из банковской, юридической и фармацевтической сфер. На площадке было представлено более 12 организаций, а также работала зона экспресс-консультаций...</p>
+      <a href="extendnews.html" class="read-more">Читать далее →</a>
+    </div>
+
+    <div class="news-card">
+      <h3>День Победы</h3>
+      <p class="date"> <img src="images/calendar.png"> 9 мая 2025</p>
+      <p class="description">В День Победы студенты и сотрудники техникума «Бизнес и Право» приняли участие в торжественном митинге, возложении цветов к мемориалу и акции «Бессмертный полк». Также силами студенческого медиацентра была подготовлена видеозарисовка...</p>
+      <a href="extendnews.html" class="read-more">Читать далее →</a>
+    </div>
+
+    <div class="news-card">
+      <h3>Мастер монтажа</h3>
+      <p class="date"> <img src="images/calendar.png"> 29 апреля 2025</p>
+      <p class="description">В техникуме прошла встреча с выпускником, работающим видеографом. Студенты познакомились с базовыми приёмами монтажа, узнали об освещении, работе со звуком и лайфхаках съёмки.</p>
+      <a href="extendnews.html" class="read-more">Читать далее →</a>
+    </div>
+
+  </div>
+</section>
+
+
+ <section class="career container">
+  <div class="section-line"></div>
+  <h2 class="section-title">Твоя профессия – твой старт!</h2>
+  <p class="career-subtitle">
+    Узнай, какие вакансии предлагают наши партнёры,<br>
+    и как подготовиться к первому собеседованию.
+  </p>
+  <div class="career-buttons">
+    <a href="#" class="btn btn-filled">Смотреть вакансии</a>
+    <a href="#" class="btn btn-outline">Смотреть советы</a>
+  </div>
+</section>
+
+
+  <section class="reviews container">
+  <div class="section-line"></div>
+  <h2 class="section-title">Отзывы наших студентов</h2>
+
+  <div class="swiper reviews-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide review-card">
+        <div class="review-header">
+          <img src="images/Group 72.png" alt="иконка" class="avatar">
+          <strong>Александр К.</strong>
+        </div>
+        <p>
+          Медиацентр — это классная возможность попробовать себя в чём-то новом.
+          Я научился снимать видео и работать с текстами. Это очень прокачивает!
+        </p>
+      </div>
+      <div class="swiper-slide review-card">
+        <div class="review-header">
+          <img src="images/Group 72.png" alt="иконка" class="avatar">
+          <strong>Александр Ф.</strong>
+        </div>
+        <p>
+          Медиацентр — это классная возможность попробовать себя в чём-то новом.
+          Я научился снимать видео и работать с текстами. Это очень прокачивает!
+        </p>
+      </div>
+      <div class="swiper-slide review-card">
+        <div class="review-header">
+          <img src="images/Group 72.png" alt="иконка" class="avatar">
+          <strong>Александр А.</strong>
+        </div>
+        <p>
+          Медиацентр — это классная возможность попробовать себя в чём-то новом.
+          Я научился снимать видео и работать с текстами. Это очень прокачивает!
+        </p>
+      </div>
+      <div class="swiper-slide review-card">
+        <div class="review-header">
+          <img src="images/Group 72.png" alt="иконка" class="avatar">
+          <strong>Александр Г.</strong>
+        </div>
+        <p>
+          Медиацентр — это классная возможность попробовать себя в чём-то новом.
+          Я научился снимать видео и работать с текстами. Это очень прокачивает!
+        </p>
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+  <section class="form-section container">
+  <h2>Хочешь присоединиться к медиацентру?</h2>
+  <p>Заполни форму, и мы обязательно свяжемся с тобой.</p>
+  <form>
+    <input type="text" placeholder="ФИО" required>
+    <input type="text" placeholder="Группа" required>
+
+    <select required>
+      <option value="" disabled selected>Специальность</option>
+      <option>Информационные технологии и программирование</option>
+      <option>Экономика и бухгалтерский учёт</option>
+      <option>Фармацевтическая деятельность</option>
+      <option>Правоохранительная деятельность</option>
+    </select>
+
+    <input type="tel" placeholder="Телефон" required>
+    <input type="email" placeholder="E-mail" required>
+    <button type="submit">Отправить заявку</button>
+  </form>
+</section>
+
+  <footer class="footer">
+  <div class="container footer-grid">
+
+    
+    <div class="footer-logo">
+      <img src="images/Бизнес и Право.Stud.png" alt="Логотип">
+    </div>
+
+    
+    <div class="footer-center">
+      <div class="footer-nav">
+        <a href="index.html">Главная</a>
+        <a href="vakansii.html">Вакансии</a>
+        <a href="soveti.html">Советы</a>
+        <a href="news.html">Новости</a>
+      </div>
+      <div class="footer-info-row">
+        <p>ул. Чапаева, 48</p>
+        <p>8(861)-553-39-12</p>
+        <div class="footer-socials-icons">
+          <a href="#"><img src="images/VK.png" alt="VK" /></a>
+          <a href="#"><img src="images/TG.png" alt="Telegram" /></a>
+          <a href="#"><img src="images/YouTube.png" alt="YouTube" /></a>
+        </div>
+        <p class="copyright">© Техникум "Бизнес и Право"</p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

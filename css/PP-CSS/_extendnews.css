@@ -1,0 +1,49 @@
+.event-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.back-link {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  transition: color 0.2s;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  color: #1c1c5a;
+}
+.event-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.event-date {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.event-text {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.event-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event-images img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
